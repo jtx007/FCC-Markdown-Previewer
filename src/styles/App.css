@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #87B5B5;
+}
+
+.editor-container {
+    width: 30vw;
+    margin: 50px auto;
+    height: 20vh;
+
+}
+
+.container-title {
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: inherit;
+    border: 1px solid black;
+    background-color: #4BA3A3;
+    box-shadow: 0 10px 6px -6px #777;
+    padding-left: 10px;
+}
+
+#editor {
+    width: inherit;
+    height: inherit;
+    background-color: #C1D8D8;
+    box-shadow: 0 10px 6px -6px #777;
+
+}
+
+#markdown {
+    padding: 20px;
+}
+
+.preview-container {
+    width: 50vw;
+    height: 60vh;
+    margin: 100px auto;
+    background-color: #C1D8D8;
+    box-shadow: 0 10px 6px -6px #777;
+
+    overflow: scroll
+}
+#preview {    
+    
+}
